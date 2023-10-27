@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo de fuente para todo el cuerpo del documento */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    background-color: #662549;
+    color: white;
+    padding: 20px;
+}
+
+nav ul{
+    width: 100%;
+    list-style-type: none;
+    text-align: left;
+}
+
+nav li{
+    display: inline-flex;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    width: 150px;
+}
+
+nav li:hover{
+    background-color: grey;
+}
+
+.programita img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.contenido{
+    display: flex;
+    margin: 60px;
+}
+
+.articulos{
+    width: 80%;
+    border-right: 3px solid #A987A8;
+}
+
+.secciones{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.presentacion{
+    text-align: left;
+    margin: 10px;
+}
+
+/* responsive design */
+@media (min-width: 768px){
+    body{
+        font-size: 15px;
+    }
+}
+
+.contenido{
+    flex-direction: column;
+    margin: 20px;
+}
+
+.articulos{
+    width: 100%;
+    border-right: none;
+}
+
+.secciones{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+#boton-mostrar{
+    border-color: #ea66ae;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #e8b3dd;
+    display: flex;
+    margin: auto;
+}
+
+.carrusel{
+    width: 300px;
+    margin: 0 auto;
+}
+
